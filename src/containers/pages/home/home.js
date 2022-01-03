@@ -12,9 +12,7 @@ import ModalFilter from '../../templates/modalFilter';
 import {useNavigation} from '@react-navigation/native';
 import {ExampleData} from './arrExample';
 
-let newArr = [];
 const HomePage = () => {
-  const [arrData, setArrData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [search, setSearch] = useState('');
